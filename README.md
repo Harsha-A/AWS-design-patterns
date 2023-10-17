@@ -13,6 +13,8 @@ The choice of design pattern for a Node.js Lambda function in AWS depends on the
 
 5. **Circuit Breaker Pattern**: For functions that interact with external services, you might consider implementing a Circuit Breaker pattern to handle failures gracefully and avoid overloading the service.
 
+  https://medium.com/geekculture/design-patterns-for-microservices-circuit-breaker-pattern-276249ffab33
+
 6. **Factory Pattern**: If your Lambda function needs to create different types of objects based on certain conditions, you can use the Factory pattern to encapsulate object creation and make your code more maintainable.
 
 7. **Dependency Injection Pattern**: To improve testability and maintainability, you can use the Dependency Injection pattern to inject dependencies (like database connections, third-party APIs) into your Lambda function.
